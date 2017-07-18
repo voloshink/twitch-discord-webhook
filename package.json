@@ -1,0 +1,14 @@
+{
+  "name": "twitch-webhook",
+  "version": "1.0.0",
+  "description": "Posts a message when a stream goes live",
+  "main": "webhook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Polecat",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
