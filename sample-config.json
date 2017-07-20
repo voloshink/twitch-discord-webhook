@@ -1,1 +1,7 @@
-{"channels":["example"],"clientId":"client id here","slackUrl":"slack webhook url here"}
+{
+	"clientId": "client_id_here",
+	"discords": [{
+		"channels": ["example"],
+		"weebhookUrl": "webhook_url"
+	}]
+}
