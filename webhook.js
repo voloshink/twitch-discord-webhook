@@ -94,7 +94,7 @@ function wentLive(channelName, stream) {
 
 
 function updateStatuses() {
-	for (const channel of this.channels) {
+	for (const channel of channels) {
 		getStatus(channel, stream => {
 			if (stream && !statusDict[channel] && recentlyLive.indexOf(channel) === -1) wentLive(channel, stream);
 			statusDict[channel] = status;
